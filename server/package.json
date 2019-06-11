@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "devstart": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "mysql": "2.11.1",
+    "pg": "^7.11.0",
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.4.0",
+    "socket.io": "^2.2.0",
+    "sqlite3": "^4.0.8"
+  },
+  "author": "Han Li",
+  "engines": {
+    "node": "10.x",
+    "npm": "6.4.1"
+  }
+}

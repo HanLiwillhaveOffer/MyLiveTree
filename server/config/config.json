@@ -1,0 +1,12 @@
+{
+    "development":{
+    "dialect":"sqlite",
+    "storage":"./data.sqlite3",
+    "timestamps": false
+},
+    "production":{
+    "dialect":"sqlite",
+    "storage":"./data.sqlite3",
+    "timestamps": false
+}
+}
